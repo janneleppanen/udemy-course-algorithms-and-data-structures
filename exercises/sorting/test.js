@@ -18,7 +18,7 @@ describe("Bubble sort", () => {
   });
 });
 
-describe.only("Selection sort", () => {
+describe("Selection sort", () => {
   test("sorts an array", () => {
     expect(selectionSort(getArray())).toEqual(getSortedArray());
   });
